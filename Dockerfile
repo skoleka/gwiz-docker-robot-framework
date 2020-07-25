@@ -1,7 +1,8 @@
 FROM ppodgorsek/robot-framework:latest
 
+USER root
 
-RUN apk --no-cache add \
+RUN apk add \
 	git
 
 CMD ["/bin/sh"]
