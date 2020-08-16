@@ -4,7 +4,9 @@ USER root
 
 RUN apk add \
 	git \
-	openssh-client
+	openssh-client \
+	rsync
+
 
 
 CMD ["/bin/sh"]
