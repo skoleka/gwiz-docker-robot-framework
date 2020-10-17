@@ -5,7 +5,12 @@ USER root
 RUN apk add \
 	git \
 	openssh-client \
-	rsync
+	rsync \
+	sshfs
+
+RUN pip3 install \
+	--no-cache-dir \
+	natural
 
 
 
