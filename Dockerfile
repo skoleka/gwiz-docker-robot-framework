@@ -10,7 +10,8 @@ RUN apk add \
 
 RUN pip3 install \
 	--no-cache-dir \
-	natural
+	natural \
+	robotframework-eyes
 
 
 
