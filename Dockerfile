@@ -1,4 +1,4 @@
-FROM ppodgorsek/robot-framework:3.6.0
+FROM ppodgorsek/robot-framework:3.8.0
 
 USER root
 
