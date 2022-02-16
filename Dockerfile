@@ -16,7 +16,11 @@ RUN pip3 install Pillow
 RUN pip3 install \
 	--no-cache-dir \
 	natural \
-	robotframework-eyes
+	robotframework-eyes \
+    robotframework-restlibrary==1.0 \
+    RESTinstance==1.3.0 \
+    robotframework-zoomba==2.13.1 \
+    robotframework-appiumlibrary==1.6.3
 
 
 
